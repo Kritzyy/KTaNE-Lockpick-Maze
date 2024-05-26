@@ -394,11 +394,11 @@ public class LockpickMazeModule : MonoBehaviour
                 {
                     ColumnNumber += 5;
                 }
-                else if (ModuleName.ToLowerInvariant().Contains("maze".ToLowerInvariant()))
+                if (ModuleName.ToLowerInvariant().Contains("maze".ToLowerInvariant()))
                 {
                     ColumnNumber += 3;
                 }
-                else if (ModuleName.ToLowerInvariant().Contains("button".ToLowerInvariant()))
+                if (ModuleName.ToLowerInvariant().Contains("button".ToLowerInvariant()))
                 {
                     ColumnNumber += 1;
                 }
